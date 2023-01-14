@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+
+.top-bar, .slider-section{
+    padding: 50px 60px;
+}
+.logo span{
+    font-size: 22px;
+    font-weight: 700;
+}
+.top-bar{
+    display: flex;
+    justify-content:space-between;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 25px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(68, 67, 67);
+    font-weight: 600;
+    font-size: 18px;
+}
+.slider-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-items: self-end;
+}
+.slider-info h2{
+    font-size: 66px;
+    font-weight: 800;
+    color: rgb(44, 43, 43);
+    margin-bottom: 20px;
+}
+.slider-info p{
+    font-weight: 600;
+    color: rgb(78, 78, 78);
+    margin-bottom: 20px;
+}
+.slider-info button{
+    padding: 20px 25px;
+    border-radius: 50px;
+    border: 1px solid rgb(158, 13, 86);
+    background-color: rgb(158, 13, 86);
+}
+.slider-info button a{
+    color: #fff;
+    font-size: 19px;
+    text-decoration: none;
+}
+.slider-img{
+    border-radius: 50%;
+    border: 2px solid rgb(250, 182, 250);
+}
+/* logo section */
+.client-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 64px 95px;
+    border-top: 1px solid #b3b3b3;
+    border-bottom: 1px solid #b3b3b3;
+    padding: 50px 40px;
+}
+/* All Collections */
+.collections-container{
+    display: flex;
+   align-items: center;
+    flex-direction: column;
+    
+}
+.all-collections{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.collections{
+    padding: 15px;
+    box-shadow: 0px 0px 10px #cee2f2;
+}
+.title{
+    margin: 20px;
+}
+.collections h3{
+    font-weight: 700;
+    margin: 15px 0px;
+    font-size: 24px;
+}
+.collections p{
+    font-weight: 600;
+    font-size: 20px;
+    margin: 15px 0px;
+}
+.rating i {
+    color: rgb(255, 170, 11);
+    font-weight: 700;
+}
+.collection-dis p{
+    font-weight: 700;
+    font-size: 14px;
+    color: rgb(48, 48, 48);
+}
